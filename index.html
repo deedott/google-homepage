@@ -5,29 +5,44 @@
 		<link type="text.css" rel="stylesheet" href="stylesheet.css">
 	</head>
 	<body>
-		<ul>
-			<li><a href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.co.uk/%3Fgfe_rd%3Dcr%26ei%3D0u3MVZDhEeXH8gepla_oDA">Sign In</a></li>
-			<li><a href="https://www.google.co.uk/imghp?hl=en&tab=wi&ei=0u3MVZKxF-Hy7AaA7qSoBQ&ved=0CBQQqi4oAQ">Images</a></li>
-			<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
-		</ul>
-		<img src="https://lh4.googleusercontent.com/-XnEk6v4rpj8/AAAAAAAAAAI/AAAAAAAAMlc/XPh4GbwQns0/w800-h800/photo.jpg">
-		<form>
-			<input type="text"><br><br>
-			<input type="submit" value="Google Search">
-			<input type="submit" value="I'm Feeling Lucky">
-		</form>
-		<footer>
-			<ul>
-				<li><a href="https://www.google.co.uk/intl/en/about.html?fg=1">About</a></li>
-				<li><a href="https://www.google.co.uk/services/?fg=1">Business</a></li>
-				<li><a href="http://www.google.co.uk/ads/index_b.html?utm_expid=100914680-32.Onzj3oGlR8uZYezrWV0lPw.2&fg=1&utm_referrer=https%3A%2F%2Fwww.google.co.uk%2F">Advertising</a></li>
-			</ul>
-			<ul>
-				<li><a href="https://www.google.com/?gfe_rd=cr&ei=3wfNVdL_O6jj8wfV7oewBg&gws_rd=cr&fg=1">Use Google.co.uk</a></li>
-				<li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
-				<li><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
-				<li><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
-			</ul>
-		</footer>
+		<div id="container">
+			<div id="topbar">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="http://3.bp.blogspot.com/-qDc5kIFIhb8/UoJEpGN9DmI/AAAAAAABl1s/BfP6FcBY1R8/s1600/BlueHead.jpg" style="border-radius: 100%" height="40px">
+						</a>
+					</li>
+					<li><div id="share">Share</div></li>
+					<li>
+						<a href="https://plus.google.com/u/0/notifications/all?hl=en">
+							<img src="http://iconshow.me/media/images/ui/ios7-icons/png/128/bell-outline.png" height="30px" margin-top="-30px">
+						</a>
+					<li><a href="https://images.google.com">Images</a></li>
+					<li><a href="https://mail.google.com">Gmail</a></li>
+					<li><a href="https://plus.google.com">+Name</a></li>
+				</ul>
+			</div>
+			<img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_Google_2013_Official.svg/1280px-Logo_Google_2013_Official.svg.png">
+			<div id="searchbar">
+				<form action="#" method="post">
+					<input name="search" type="search">
+				</form>
+			<div id="searchOptions">
+				<div class="button">Google Search</div>
+				<div class="button">I'm Feeling Lucky</div>
+			</div>
+			<div id="bottombar">
+				<ul id="bottomright">
+					<li><a href="https://www.google.com/preferences">Settings</a></li>
+					<li><a href="http://www.google.com/intl/en/policies/">Terms & Privacy</a></li>
+				</ul>
+				<ul id="bottomleft">
+					<li><a href="https://www.google.com/intl/en/about">About</a></li>
+					<li><a href="https://www.google.com/services">Business</a></li>
+					<li><a href="http://www.google.com/intl/en/ads">Advertising</a></li>
+				</ul>
+			</div>
+		</div>
 	</body>
 </html>
