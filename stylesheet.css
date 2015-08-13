@@ -1,0 +1,41 @@
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 300px;
+	clear: both;
+}
+form {
+	text-align: center;
+}
+body ul li {
+	float: right;
+	width: auto;
+	list-style-type: none;
+}
+a {
+	display: block;
+	width: 60px;
+}
+form input:first-child {
+	width: 500px;
+}
+footer ul:first-child li {
+	list-style-type: none;
+	width: 100px;
+	display: inline;
+	float: left;
+}
+footer ul:nth-child(2) li {
+	list-style-type: none;
+	width: 100px;
+	display: inline;
+	margin-left: 300px;
+	float: right;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	border: 1px solid grey;
+}
