@@ -1,4 +1,2 @@
-# google-homepage
-My first repository on GitHub!
-Google Homepage
-www.theodeonproject.com
+<title>Google Homepage</title>
+<a href="www.theodinproject.com">The Odin Project</a>
